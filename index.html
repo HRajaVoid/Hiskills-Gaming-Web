@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,86 +12,83 @@
             margin: 0;
             padding: 0;
         }
-
         .header {
             text-align: center;
             padding: 50px 20px;
         }
-
-            .header img {
-                max-width: 150px;
-                margin-bottom: 20px;
-            }
-
-            .header h1 {
-                margin: 0;
-                font-size: 2.5em;
-            }
-
-            .header p {
-                font-size: 1.2em;
-            }
-
-        .buttons {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
+        .header img {
+            max-width: 150px;
+            margin-bottom: 20px;
         }
-
-            .buttons button {
-                background-color: white;
-                color: blue;
-                border: none;
-                padding: 15px 25px;
-                margin: 0 10px;
-                cursor: pointer;
-                font-size: 1em;
-            }
-
-                .buttons button:hover {
-                    background-color: #ddd;
-                }
-
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            font-size: 1.2em;
+        }
+        .nav {
+            background-color: darkblue;
+            overflow: hidden;
+        }
+        .nav button {
+            float: left;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            cursor: pointer;
+        }
+        .nav button:hover {
+            background-color: lightblue;
+            color: darkblue;
+        }
         .cta {
             text-align: center;
             margin: 50px 20px;
         }
-
-            .cta a {
-                display: inline-block;
-                background-color: white;
-                color: blue;
-                padding: 15px 30px;
-                text-decoration: none;
-                font-size: 1.2em;
-            }
-
-                .cta a:hover {
-                    background-color: #ddd;
-                }
-
+        .cta a {
+            display: inline-block;
+            background-color: white;
+            color: blue;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .cta a:hover {
+            background-color: #ddd;
+        }
         footer {
             background-color: darkblue;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
-
-            footer div {
-                margin: 10px 0;
-            }
+        footer div {
+            margin: 10px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="Hiskills Game Logo.jpg" alt="Hiskills Games Logo">
+        <img src="/mnt/data/Hiskills Game Logo.jpg" alt="Hiskills Games Logo">
         <h1>Transform Team Bonding with Hiskiel Games</h1>
         <p>Casual and Quick Web Games for Teams and Colleagues</p>
     </div>
-    <div class="buttons">
+    <div class="nav">
         <button onclick="location.href='About Us.html'">About Us</button>
         <button onclick="location.href='features.html'">Features</button>
-        <button onclick="location.href='How it Works.html'">How It Works</button>
+        <button onclick="location.href='How It Works.html'">How It Works</button>
         <button onclick="location.href='testimonials.html'">Testimonials</button>
         <button onclick="location.href='cta.html'">Call to Action</button>
     </div>
